@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * author service.
+ * chatroom service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::author.author');
+module.exports = createCoreService('api::chatroom.chatroom');
